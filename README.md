@@ -58,8 +58,9 @@ http://localhost:9091/hello
 OR  
 http://localhost:9091/health
 
-Expected Response : http://localhost:9091/hello - Success
-                    http://localhost:9091/health - You reached the Health GET API endpoint successfully!! Test finished.
+Expected Response : 
+http://localhost:9091/hello - Success
+http://localhost:9091/health - You reached the Health GET API endpoint successfully!! Test finished.
 
 
 2. To check error enable Debug logs by uncommenting the  following line from application.properties file 
