@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.charter.customer.rewards.RetailerCustomerRewardsRestApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 5.61 s <<< FAILURE! - in com.charter.customer.rewards.RetailerCustomerRewardsRestApplicationTests
+testCalculateRewardsforInvalidCustomer  Time elapsed: 0.136 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.charter.customer.rewards.RetailerCustomerRewardsRestApplicationTests.testCalculateRewardsforInvalidCustomer(RetailerCustomerRewardsRestApplicationTests.java:78)
+
+testCalculateRewardsforHundred  Time elapsed: 0.012 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <50> but was: <0>
+	at com.charter.customer.rewards.RetailerCustomerRewardsRestApplicationTests.testCalculateRewardsforHundred(RetailerCustomerRewardsRestApplicationTests.java:71)
+
